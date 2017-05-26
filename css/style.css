@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+}
+.header-bg {
+	background: url("../images/bg.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: normal;
+	color: white; 
+	-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: background 1s;
+}
+.overlay {
+	background: rgba(46, 170, 242, 0.5);
+	opacity: 0.9;
+	height: 100%;
+	min-height: 100vh;
+
+}
+
+.header-bg:hover {
+
+	background: url("../images/bg2.jpg");
+	bottom:-100vh;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: normal;
+	color: white; 
+}
+
+
+img {
+	height: 30vh;
+}
+div > center > h1 {
+	margin: 20vh;
+}
