@@ -1,5 +1,9 @@
-body {
+body * {
 	margin: 0;
+}
+.clear{
+	content: ""
+	clear: both;
 }
 .header-bg {
 	background: url("../images/bg.jpg");
@@ -19,6 +23,42 @@ body {
 	min-height: 100vh;
 
 }
+.content {
+	margin: 10px;
+}
+.about {
+	margin: auto;
+}
+.about-bg {
+	background: url("../images/aboutbg.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px;
+	padding-bottom: 50px;	
+}
+/*.about-mepic {
+	background: url("../images/aboutpic.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 70vh;
+	width: 30vh;
+}*/
+
+.aboutme-pic {
+	width: 50vh;
+	height: 70vh;
+	float: left;
+}
+.overlay-bg{
+	background-color: rgba(255, 255, 255, 0.8);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-size: 90%;
+	padding: 5vh;
+}
 
 .header-bg:hover {
 
@@ -30,12 +70,215 @@ body {
 	background-size: cover;
 	background-blend-mode: normal;
 	color: white; 
+	float: left;
 }
 
 
-img {
-	height: 30vh;
+.logo {
+	height: 20vh;
 }
-div > center > h1 {
+.caption > center > h1 {
 	margin: 20vh;
 }
+
+.home-header-bg {
+	background: url("../images/homebg2.jpg");
+	background-color: black;
+	background-position: center;
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	color: white; 
+	padding: 20vh 20vh 20vh 130vh	;
+
+}
+.home-header-img {
+	background: url("../images/homebg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 100%;
+	height: 100%;
+
+}
+
+.navigation {
+	color: black;
+	text-decoration: none;
+	/*font-family: 'Cookie', cursive;*/
+	font-family: 'Great Vibes', cursive;
+	border-left: 1px solid white;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 40px 0;
+	float: left;
+	font-size: 10vh;
+	text-shadow: 2px 2px white;
+}	
+
+
+.navigation:hover {
+	color: blue;
+	text-decoration: none;
+}	
+.navbar{
+    margin: 0;
+}
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+/*.navbar-brand {
+	padding-top: 0;
+}*/
+
+.navbar-left {
+	margin-left: 200px;
+}
+/*About ME*/
+/*.about-header {
+	position: relative;
+	top: 0;
+	left: 35px;
+	float: left;
+}*/
+.logo-about {
+	height: 30vh;
+	float: left;
+	margin-left: 100px;
+}
+
+ul.sidenav {
+	margin: 0 200px 0 600px;
+    list-style-type: none;
+    padding: 0;
+    background-color: #f1f1f1;
+    overflow: auto;
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+ul.sidenav li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    float: left;
+    padding: 15px;
+}
+ 
+ul.sidenav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.menu-bg {
+background-image: url("../images/menu.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: fixed;
+color: white;
+font-weight: bold;
+}
+
+.about-pic {
+	background: url("../images/bg.jpg");
+	background-position: center;
+/*	background-attachment: fixed;*/
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 90vh;
+	margin-left: 50px;
+	float: left;
+	top: 0;
+	border-radius: 10px;
+}
+.about-heading {
+    background-color: gray;
+    width: 50vh;
+    float: left;
+    padding: 3vh;
+    z-index: -2;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    margin: 17% 0;
+    text-align: justify;
+}
+.content-right {
+	font-size: 15px;
+	/*text-align: center;*/
+}
+.map{
+	widows: auto;
+	margin: 20px;
+	text-align: center;
+}
+.map-size{
+	max-width: 900;
+}
+.social {
+	text-align: center;
+}
+.social-img {
+	height: 30px;
+}
+footer {
+	background-color: gray;
+	left: 0;
+	right: 0;
+	padding: 20px;	
+/*	min-height: 200px;	
+	max-height: 1000px;*/
+}
+.footer-design {
+	background-image: url("../images/footer_banner.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 85px;
+	border-radius: 0 0 120px 120px;
+}
+.space {
+	padding-right: 0;
+}
+.space2 {
+	padding-left: 0;
+}
+.wedding-bg {
+	background-image: url("../images/weddingbg.png");
+	background-size: cover;
+	background-position: center;
+	background-attachment: : fixed;
+	background-repeat: no-repeat;
+}
+.padding {
+	padding: 30px 0;
+}
+.jumbotron {
+	margin-bottom: 0;
+}
+.sympathy-bg {
+	background-image: url("../images/sympathybg.png");
+	background-size: cover;
+	background-position: center;
+	background-attachment: : fixed;
+	background-repeat: no-repeat;
+}
+.birthday-bg {
+	background-image: url("../images/birthdaybg.png");
+	background-size: cover;
+	background-position: center;
+	background-attachment: : fixed;
+	background-repeat: no-repeat;
+}
+.footer-a {
+	color: white;
+	text-decoration: none;
+	/*font-family: 'Cookie', cursive;*/
+	font-family: 'Great Vibes', cursive;
+	text-shadow: 1px 1px green;
+}	
